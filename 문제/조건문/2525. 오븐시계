@@ -1,11 +1,9 @@
 A, B = map(int, input().split())
 C = int(input())
 
-# 현재 시각을 분으로 변환
 total_minutes = A * 60 + B + C
 
-# 총 분을 다시 시와 분으로 변환 
-E = (total_minutes // 60) % 24  # 시간
-D = total_minutes % 60          # 분
+E = (total_minutes // 60) % 24
+D = total_minutes % 60         
 
 print(E, D)
