@@ -1,0 +1,9 @@
+a, b = map(int, input().split())
+n_list = list(map(int, input().split()))
+
+print_list = []
+for i in range(a):
+    if a_lst[i] < x:
+        print_list.append(n_list[i])
+
+print(" ".join(map(str, print_list)))
