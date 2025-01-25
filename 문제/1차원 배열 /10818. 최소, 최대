@@ -1,0 +1,6 @@
+import sys
+
+k = int(input())
+input_list = sorted(list(map(int, sys.stdin.readline().split())))
+
+print(input_list[0], input_list[-1])
