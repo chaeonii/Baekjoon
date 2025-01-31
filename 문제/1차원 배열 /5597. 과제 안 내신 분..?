@@ -1,0 +1,7 @@
+a_list = [x for x in range(1, 31)]
+for i in range(28):
+    a = int(input())
+    a_list.pop(a_list.index(n))
+
+for i in a_list:
+    print(i)
