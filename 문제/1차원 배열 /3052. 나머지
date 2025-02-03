@@ -1,0 +1,5 @@
+n_list = []
+for i in range(10):
+    num_lst.append(int(input()) % 42)
+    
+print(len(set(n_list)))
