@@ -1,0 +1,9 @@
+import sys
+a, b = map(int, sys.stdin.readline().split())
+a_list = [i + 1 for i in range(a)]
+
+for x in range(b):
+    c, d = map(int, sys.stdin.readline().split())
+    a_list[i - 1:d] = a_list[i - 1:d][::-1]
+    
+print(*a_lst)
