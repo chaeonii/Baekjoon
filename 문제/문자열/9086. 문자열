@@ -1,7 +1,7 @@
-print_lst = []
+print_list = []
 for i in range(int(input())):
     s = input()
-    print_lst.append(f"{s[0]}{s[-1]}")
+    print_list.append(f"{s[0]}{s[-1]}")
 
-for i in print_lst:
+for i in print_list:
     print(i)
