@@ -1,0 +1,7 @@
+n = int(input())
+n_str = input()
+
+output_n = 0
+for i in n_str:
+    output_n += int(i)
+print(output_n)
